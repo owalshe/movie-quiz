@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="movie-quiz">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="movie-quiz.api-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.example.movie-quiz.api/com.example.movie-quiz.api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="movie-quiz.common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.example.movie-quiz.common/com.example.movie-quiz.common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="movie-quiz.model-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.example.movie-quiz.model/com.example.movie-quiz.model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="movie-quiz"/>
+        <property name="java-output-path" value="/com.example.movie-quiz.service/target/classes"/>
+    </wb-module>
+</project-modules>

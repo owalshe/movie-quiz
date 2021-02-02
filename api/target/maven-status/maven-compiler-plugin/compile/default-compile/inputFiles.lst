@@ -1,0 +1,12 @@
+C:\workspace\movie-quiz\api\src\main\java\movie\quiz\api\model\Resource.java
+C:\workspace\movie-quiz\api\src\main\java\movie\quiz\api\resource\ResourceException.java
+C:\workspace\movie-quiz\api\src\main\java\movie\quiz\api\service\MovieQuizService.java
+C:\workspace\movie-quiz\api\src\main\java\movie\quiz\api\resource\ResourceProvider.java
+C:\workspace\movie-quiz\api\src\main\java\movie\quiz\api\service\ServiceException.java
+C:\workspace\movie-quiz\api\src\main\java\movie\quiz\api\factory\MovieFactory.java
+C:\workspace\movie-quiz\api\src\main\java\movie\quiz\api\type\YearOfReleaseQuiz.java
+C:\workspace\movie-quiz\api\src\main\java\movie\quiz\api\resource\ResourceRequest.java
+C:\workspace\movie-quiz\api\src\main\java\movie\quiz\api\type\YearOfReleaseQuizFactory.java
+C:\workspace\movie-quiz\api\src\main\java\movie\quiz\api\model\Answer.java
+C:\workspace\movie-quiz\api\src\main\java\movie\quiz\api\model\Movie.java
+C:\workspace\movie-quiz\api\src\main\java\movie\quiz\api\model\Image.java

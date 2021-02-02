@@ -1,0 +1,15 @@
+movie\quiz\service\type\YearOfReleaseQuizChoiceBuilder.class
+movie\quiz\service\resource\MovieImageResource.class
+movie\quiz\service\factory\DefaultMovieFactory.class
+movie\quiz\service\controller\Controller.class
+movie\quiz\service\resource\MovieResource.class
+movie\quiz\service\type\DefaultYearOfReleaseQuizFactory.class
+movie\quiz\service\resource\request\MovieResourceRequest.class
+movie\quiz\service\resource\RandomMovieResource.class
+movie\quiz\service\ApiKeyHandler.class
+movie\quiz\service\RestServiceApplication.class
+movie\quiz\service\DefaultMovieQuizService.class
+movie\quiz\service\resource\AbstractResource.class
+movie\quiz\service\resource\request\AbstractMovieIdResourceRequest.class
+movie\quiz\service\resource\request\RandomMovieResourceRequest.class
+movie\quiz\service\resource\request\ImageResourceRequest.class
