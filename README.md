@@ -32,5 +32,5 @@ GET movie-quiz/answer-year-of-release?movieId=37799&year=2010
 
 # Sample Rendering:
 
-![](images/sample.jpg)
+![](images/sample.JPG)
 
