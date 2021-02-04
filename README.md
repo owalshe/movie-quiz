@@ -15,9 +15,9 @@ GET movie-quiz/create-year-of-release
 
 ```json
 {
-	"imagePath":"http://image.tmdb.org/t/p/original/lpn1whaulslRtxxufxX9lhEQ0Bn.jpg",
 	"id":37799,
 	"name":"The Social Network",
+	"imagePath":"http://image.tmdb.org/t/p/original/lpn1whaulslRtxxufxX9lhEQ0Bn.jpg",
 	"choices":[2007,2010,2013]
 }
 ```
@@ -26,11 +26,7 @@ GET movie-quiz/answer-year-of-release?movieId=37799&year=2010
 
 ```json
 {
-  "isCorrect":true
+  "correct":true
 }
 ```
-
-# Sample Rendering:
-
-![](images/sample.JPG)
 
