@@ -4,10 +4,6 @@ Movie quiz REST service built on top of themoviedb.org api:
 
 https://www.themoviedb.org/documentation/api
 
-# Status
-
-[![owalshe](https://circleci.com/gh/owalshe/Rest-Service.svg?style=shield)](https://app.circleci.com/pipelines/github/owalshe)
-
 
 # Sample Output
 
@@ -29,4 +25,8 @@ GET movie-quiz/answer-year-of-release-quiz?movieId=37799&year=2010
   "correct":true
 }
 ```
+
+# Status
+
+[![owalshe](https://circleci.com/gh/owalshe/Rest-Service.svg?style=shield)](https://app.circleci.com/pipelines/github/owalshe)
 
