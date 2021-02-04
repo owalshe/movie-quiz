@@ -28,8 +28,8 @@ public class DefaultYearOfReleaseQuizFactory implements YearOfReleaseQuizFactory
         Integer movieId = movie.getId();
         Image image = this.movieFactory.getImage(movieId);
         List<Integer> choices = getChoices(movie.getRelaseYear());
-        return new DefaultYearOfReleaseQuiz(image.getPath(), movieId.intValue(), movie.getTitle(), 
-        		movie.getRelaseYear(), choices);
+        return new DefaultYearOfReleaseQuiz(movieId.intValue(), movie.getTitle(), image.getPath(),
+        		choices);
 	}
 	
 	@Override

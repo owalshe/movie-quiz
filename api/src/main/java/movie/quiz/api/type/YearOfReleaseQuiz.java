@@ -1,5 +1,7 @@
 package movie.quiz.api.type;
 
+import java.util.List;
+
 public interface YearOfReleaseQuiz {
 
 	int getId();
@@ -8,6 +10,6 @@ public interface YearOfReleaseQuiz {
 
 	String getImagePath();
 
-	String getYear();
+	List<Integer> getChoices();
 
 }

@@ -12,6 +12,6 @@ public class DefaultAnswer implements Answer {
 
 	@Override
 	public boolean isCorrect() {
-		return isCorrect;
+		return this.isCorrect;
 	}
 }

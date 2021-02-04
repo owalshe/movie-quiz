@@ -15,12 +15,12 @@ public class Controller {
 	@Autowired
 	private MovieQuizService quizService;
 	
-	@GetMapping("/create-year-of-release")
+	@GetMapping("/year-of-release-quiz")
 	public YearOfReleaseQuiz movie() throws Exception {
 		return this.quizService.createYearOfReleaseQuiz();
 	}
 	
-	@GetMapping("/answer-year-of-release")
+	@GetMapping("/answer-year-of-release-quiz")
 	public Answer movie(@RequestParam(value = "movieId") int movieId, 
 			@RequestParam(value = "year") String year) throws Exception {
 		return this.quizService.answerYearOfReleaseQuiz(movieId, year);
