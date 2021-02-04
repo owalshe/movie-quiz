@@ -1,36 +1,32 @@
 # Rest-Service
 
-REST Service built on top of themoviedb.org api:
+Movie quiz REST service built on top of themoviedb.org api:
 
 https://www.themoviedb.org/documentation/api
-
-# Status
-
-[![owalshe](https://circleci.com/gh/owalshe/Rest-Service.svg?style=shield)](https://app.circleci.com/pipelines/github/owalshe)
 
 
 # Sample Output
 
-GET movie-quiz/create-year-of-release
+GET movie-quiz/year-of-release-quiz
 
 ```json
 {
-	"imagePath":"http://image.tmdb.org/t/p/original/lpn1whaulslRtxxufxX9lhEQ0Bn.jpg",
 	"id":37799,
 	"name":"The Social Network",
+	"imagePath":"http://image.tmdb.org/t/p/original/lpn1whaulslRtxxufxX9lhEQ0Bn.jpg",
 	"choices":[2007,2010,2013]
 }
 ```
 
-GET movie-quiz/answer-year-of-release?movieId=37799&year=2010
+GET movie-quiz/answer-year-of-release-quiz?movieId=37799&year=2010
 
 ```json
 {
-  "isCorrect":true
+  "correct":true
 }
 ```
 
-# Sample Rendering:
+# Status
 
-![](images/sample.JPG)
+[![owalshe](https://circleci.com/gh/owalshe/Rest-Service.svg?style=shield)](https://app.circleci.com/pipelines/github/owalshe)
 
