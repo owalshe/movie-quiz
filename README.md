@@ -1,6 +1,6 @@
-# Rest-Service
+# Service
 
-Movie quiz REST service built on top of themoviedb.org api:
+Movie quiz service built on top of themoviedb.org api:
 
 https://www.themoviedb.org/documentation/api
 
