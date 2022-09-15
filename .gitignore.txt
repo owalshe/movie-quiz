@@ -1,5 +1,30 @@
-*.class
-*.jar
-*.txt
-*.core.xml
+
+### Builder
 target/
+build/
+out/
+gen/
+.gradle/
+local.properties
+
+### IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+### Eclipse
+.settings/
+.project
+.classpath
+.mymetadata
+
+### Package Files
+*.jar
+*.war
+*.ear
+
+### Other
+.DS_Store
+*.log
+*.bak
