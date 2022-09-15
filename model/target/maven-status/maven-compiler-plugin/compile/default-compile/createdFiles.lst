@@ -1,0 +1,4 @@
+movie\quiz\model\resource\DefaultImage.class
+movie\quiz\model\resource\DefaultMovie.class
+movie\quiz\model\DefaultAnswer.class
+movie\quiz\model\type\DefaultYearOfReleaseQuiz.class

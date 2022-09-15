@@ -1,0 +1,4 @@
+movie\rest\service\resource\RandomMovieResourceTest.class
+movie\rest\service\resource\ImageResourceTest.class
+movie\rest\service\type\QuizChoiceBuilderTest.class
+movie\rest\service\DefaultMovieQuizServiceTest.class

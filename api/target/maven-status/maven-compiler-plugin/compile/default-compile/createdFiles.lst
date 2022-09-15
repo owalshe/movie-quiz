@@ -1,0 +1,12 @@
+movie\quiz\api\factory\MovieFactory.class
+movie\quiz\api\model\Resource.class
+movie\quiz\api\model\Answer.class
+movie\quiz\api\resource\ResourceException.class
+movie\quiz\api\service\MovieQuizService.class
+movie\quiz\api\service\ServiceException.class
+movie\quiz\api\resource\ResourceProvider.class
+movie\quiz\api\model\Image.class
+movie\quiz\api\type\YearOfReleaseQuiz.class
+movie\quiz\api\type\YearOfReleaseQuizFactory.class
+movie\quiz\api\model\Movie.class
+movie\quiz\api\resource\ResourceRequest.class
