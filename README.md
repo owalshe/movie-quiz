@@ -7,7 +7,7 @@ https://www.themoviedb.org/documentation/api
 
 # Sample Output
 
-GET movie-quiz/year-of-release-quiz
+POST quiz/movie/year-of-release
 
 ```json
 {
@@ -18,7 +18,7 @@ GET movie-quiz/year-of-release-quiz
 }
 ```
 
-GET movie-quiz/answer-year-of-release-quiz?movieId=37799&year=2010
+GET quiz/movie/year-of-release/answer?movieId=37799&year=2010
 
 ```json
 {
