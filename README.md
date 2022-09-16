@@ -4,6 +4,10 @@ Movie quiz service built on top of themoviedb.org api:
 
 https://www.themoviedb.org/documentation/api
 
+# Setup
+- Compile at root using "mvn clean install".
+- Navigate to service folder and run "mvn spring-boot:run" to start service.
+- Use Postman or other client to interact with service.
 
 # Sample Output
 
@@ -25,8 +29,4 @@ GET quiz/movie/year-of-release/answer?movieId=37799&year=2010
   "correct":true
 }
 ```
-
-# Status
-
-[![owalshe](https://circleci.com/gh/owalshe/Rest-Service.svg?style=shield)](https://app.circleci.com/pipelines/github/owalshe)
 
